@@ -105,8 +105,9 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(data => {
-            // Assuming 'result-section' is an ID of an element meant to display the results
-            resultSection.textContent = JSON.stringify(data, null, 2); // Displaying the raw JSON data for simplicity
+            // resultSection.textContent = JSON.stringify(data, null, 2); // Displaying the raw JSON data for simplicity
+            const resultsString = `Decimal Results: ${data.decimal_results.join(', ')}\nDecimal Number: ${data.decimal_number}`;
+            resultSection.textContent = resultsString; // Displaying the formatted string
         })
         .catch(error => {
             console.error('Error fetching results:', error);

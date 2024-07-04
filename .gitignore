@@ -5,3 +5,5 @@ package-lock.json
 .DS_Store
 temp/
 private/histogram.png
+private/input.json
+private/output.json

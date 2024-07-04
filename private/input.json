@@ -2,13 +2,9 @@
   "numberOfQubits": 1,
   "seriesOfGates": [
     {
-      "gate": "I",
-      "qubit": 0
-    },
-    {
-      "gate": "I",
+      "gate": "H",
       "qubit": 0
     }
   ],
-  "repetitions": 10
+  "repetitions": 100
 }

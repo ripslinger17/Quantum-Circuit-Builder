@@ -1,6 +1,6 @@
 *{
     /* background-color: #212A31; */
-    border-color: black;
+    /* border-color: black; */
     color: #D3D9D4;
     border-radius: 7px;
 }
@@ -18,14 +18,14 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.5px solid;
+    /* border: 0.5px solid; */
     background-color: #2E3944;
 }
 
 .main1{
     padding: 10px 10px 10px 10px;
     margin-top: 10px;
-    border: 0.5px solid;
+    /* border: 0.5px solid; */
     background-color: #D3D9D4;
 }
 
@@ -37,7 +37,7 @@ header{
     width: 5%;
     padding-top: 5px;
     padding-bottom: 5px;
-    border: 0.5px solid;
+    /* border: 0.5px solid; */
     background-color: #2E3944;
 }
 
@@ -95,7 +95,7 @@ header{
     padding: 10px 10px 10px 10px;
     margin-top: 10px;
     height: 200px;
-    border: 0.5px solid;
+    /* border: 0.5px solid; */
     background-color: #2E3944;
 }
 .controller{
@@ -105,7 +105,7 @@ header{
     align-items: center;
     width: 50%;
     margin-right: 5px;
-    border: 0.5px solid;
+    /* border: 0.5px solid; */
     background-color: #748D92;
 }
 .shots-container{
@@ -129,6 +129,9 @@ header{
     justify-content: center;
     align-items: center;
 }
+input[type=number] {
+    color: black; /* Change the color of the text */
+  }
 .measurement-container {
     display: flex;
     flex-direction: column;
@@ -159,7 +162,7 @@ header{
     flex-direction: column;
     width: 50%;
     margin-left: 5px;
-    border: 0.5px solid;
+    /* border: 0.5px solid; */
     background-color: #748D92;
 }
 
