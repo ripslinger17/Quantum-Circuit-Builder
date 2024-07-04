@@ -213,13 +213,3 @@ input[type=number] {
     /* border: 0.5px solid black; */
     /* background-color: aqua; */
 }
-
-.doc-main2{
-    display: flex;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    gap: 10px;
-}
