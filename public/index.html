@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Circuit Builder</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Quantum Circuit Builder</h1>
+    </header>
+    <div class = "main1">
+        <div class="gate-container">
+            <div class="gate" draggable="true" data-gate="H">H</div>
+            <div class="gate" draggable="true" data-gate="X">X</div>
+            <div class="gate" draggable="true" data-gate="Y">Y</div>
+            <div class="gate" draggable="true" data-gate="Z">Z</div>
+            <div class="gate" draggable="true" data-gate="I">I</div>
+            <!-- Add more gates as needed -->
+        </div>
+        <div class="circuit-container">
+            <div class="qubit" data-qubit="0"></div>
+                <!-- Add more qubits as needed -->
+        </div>
+    </div>
+    <div class="main2">
+        <div class = "controller">
+            <div class="shots-container">
+                    <label for="shots" id = "shots-label">Number of Shots:</label>
+                    <input type="number" id="shots" name="shots" min="1" value="10">
+            </div>
+            <div class="measurement-container">
+                <button id="send">Send</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+        <div id = "results">
+            <h2 id = "result-title">Results</h2>
+            <div id="result-section"></div>
+        </div>
+    </div>
+    <div class="main3">
+        <div class="copyright">
+            <!-- <p id="copyright text">© 2021 Quantum Circuit Builder</p> -->
+            <a href="https://github.com/ripslinger17" id="copyright text" target="_blank">© 2024 Smit M. Patel</a>
+        </div>
+        <div class="docs">
+            <p>Docs</p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

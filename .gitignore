@@ -1,0 +1,7 @@
+node_modules/
+colorPal.png
+package-lock.json
+.vscode/
+.DS_Store
+temp/
+private/histogram.png

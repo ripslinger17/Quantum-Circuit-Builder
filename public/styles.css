@@ -1,0 +1,212 @@
+*{
+    /* background-color: #212A31; */
+    border-color: black;
+    color: #D3D9D4;
+    border-radius: 7px;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #212A31;
+}
+
+h1{
+    background-color: #2E3944;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid;
+    background-color: #2E3944;
+}
+
+.main1{
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    border: 0.5px solid;
+    background-color: #D3D9D4;
+}
+
+.gate-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0.5px solid;
+    background-color: #2E3944;
+}
+
+.gate {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    cursor: grab;
+    width: 10px;
+    height: 10px;
+    background-color: #748D92;
+}
+
+.circuit-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right : 10%;
+    top: 240px;
+    width: 80%;
+    /* border: 0.5px solid black; */
+    /* background-color: yellow; */
+}
+
+.qubit {
+    height: 50px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    overflow-x: auto;
+    width: 100%;
+    background-color: #748D92;
+}
+
+.dropped-gate {
+    width: 40px;
+    height: 40px;
+    background-color: #2E3944;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.main2{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    height: 200px;
+    border: 0.5px solid;
+    background-color: #2E3944;
+}
+.controller{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-right: 5px;
+    border: 0.5px solid;
+    background-color: #748D92;
+}
+.shots-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+    gap: 10px;
+    /* border: 0.5px solid black; */
+    /* background-color: blueviolet; */
+}
+
+#shots-label
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.measurement-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+    gap: 10px;
+    /* border: 0.5px solid black; */
+    /* background-color: blueviolet; */
+}
+#send{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #124E66;
+    /* border: 0.5px solid black; */
+}
+#reset{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #124E66;
+    /* border: 0.5px solid black; */
+}
+#results{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 5px;
+    border: 0.5px solid;
+    background-color: #748D92;
+}
+
+#result-title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* border: 0.5px solid black; */
+    /* background-color: green; */
+}
+
+#result-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    height: 50%;
+    width: 100%;
+    /* border: 0.5px solid black; */
+    /* background-color: green; */
+}
+
+.main3
+{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+    /* border: 0.5px solid black; */
+    /* background-color: darkslateblue; */
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 0.5px solid black; */
+    /* background-color: thistle; */
+}
+.docs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 0.5px solid black; */
+    /* background-color: aqua; */
+}
