@@ -10,7 +10,7 @@ body {
     background-color: #212A31;
 }
 
-h1{
+.heading{
     background-color: #2E3944;
 }
 
@@ -212,4 +212,14 @@ input[type=number] {
     align-items: center;
     /* border: 0.5px solid black; */
     /* background-color: aqua; */
+}
+
+.doc-main2{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
 }
